@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const porta = 3000;
+const dotEnv = require("dotenv").config();
 
 app.use(express.static("./app/public"));
 
